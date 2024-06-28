@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    margin: 50px 20px;
+}
+section div {
+    padding: 20px 20px;
+}
+h2 {
+    margin: 5px 30px 20px 0;
+}
+h3 {
+    margin: 20px 0 20px 0;
+}
+img {
+    width: 300px;
+    height: 200px;
+}
+img.floatLeft {
+    float: left;
+    margin-right: 10px;
+}
+img.floatRight {
+    float: right;
+    margin-left: 10px;
+}
+
+

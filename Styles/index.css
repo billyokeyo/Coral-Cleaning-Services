@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    min-height: 100vh;
+}
+h1.about-coral-cleaning-services {
+    margin: 20px 30px;
+    padding: 5px 0;
+}
+p.about-coral-cleaning-services {
+    margin: 60px 20px 10px 20px;
+}
+div.laundry-freedom, div.turnaround-time, div.customer-support {
+    display: flex;
+    align-items: center;
+    padding: 50px 30px;
+}
+div.laundry-freedom-description {
+    margin: 100px 5px 0 80px;
+}
+div.collection-today, div.laundry-back {
+    display: flex;
+    align-items: center;
+}
+.margin-left-15 {
+    margin: 0 0 0 15px;
+}
+div.laundry-freedom img {
+    width: 600px;
+    height: 400px;
+}
+div.image-turnaround {
+    margin: 50px 0 100px auto;
+}
+div.turnaround-time img.turnaround-img {
+    width: 600px;
+    height: 400px;
+}
+div.support-img {
+    margin: 50px 150px 10px 10px;
+}
+div img.support-img {
+    width: 400px;
+    height: 300px;
+}
+

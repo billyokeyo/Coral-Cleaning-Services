@@ -1,0 +1,37 @@
+section {
+    margin: 50px 20px;
+}
+section div {
+    margin: 20px 10px;
+    padding: 50px 20px;
+    border: 3px solid black;
+    border-radius: 40px;
+    box-shadow: 30px 10px 5px black;
+}
+section.laundryReviews {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: repeat(5, auto);
+    grid-column-gap: 40px;
+}
+section.carDetailingReviews div, section.gardeningReviews div {
+    box-shadow: 10px 10px 5px black;
+}
+div>p:nth-child(2) {
+    text-align: center;
+}
+section fieldset {
+    padding: 30px 20px ;
+}
+section fieldset p , textarea {
+    padding: 20px 10px;
+}
+button {
+    background-color: #000;
+    color: #fff;
+    border-radius: 50px;
+    margin: 50px 0 20px 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
